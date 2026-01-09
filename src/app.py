@@ -133,8 +133,3 @@ if st.button("Simular ahora"):
     plt.tight_layout()
     st.pyplot(fig)
 
-
-engine = db_connect()
-
-if engine is None:
-    st.warning("⚠️ Base de datos no configurada")
